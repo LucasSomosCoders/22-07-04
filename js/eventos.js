@@ -1,6 +1,6 @@
 
 // function cargarPagina() {
-  // alert("Hola Como estas?");
+
   
   function cambiarColor() {
     let titulo = document.getElementById("titulo1");
@@ -39,20 +39,23 @@
     // };
 
     // Eventos con funciones flecha
-    document.getElementById('aparecer').click = () => {
+    document.getElementById('aparecer').onclick = () => {
       document.getElementById("imagen").style.display = "block";
     };
 
+    // Modo de seleccion del primer elemento que aparece en el HTML
+    // document.querySelector('.nombreclase')
 
+    // Modo de seleccion de todos los elementos que aparecen en el HTML
+    // document.querySelector('.nombreclase')
+
+    // obtencion de elementos del DOM
     // document.getElementById('id')
     // document.getElementsByClassName('clase')
     // document.getElementsByTagName('tag')
 
 
 // }
-
-
-
 
 
 
